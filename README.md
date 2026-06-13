@@ -35,6 +35,12 @@ I build **mobile business systems, Java backends, admin platforms, and practical
 | RAG Knowledge Base | Upload, chunking, embedding, Top-K retrieval, source citation, out-of-scope boundary | [Case study](https://mikehot.cloud/projects/rag-knowledge-base/) |
 | Field Service Ops Platform | Spring Boot + Vue admin base for auth, RBAC, customers, tickets, approvals, audit, smoke validation | [Case study](https://mikehot.cloud/projects/field-service-ops/) |
 
+## Public Demo Repository
+
+| Repository | What It Demonstrates | Link |
+| --- | --- | --- |
+| Spring Boot AI RAG Demo | Sanitized RAG Q&A API with sample documents, simple retrieval, source citations, `found=false` boundary, tests, and CI | [mikehot/springboot-ai-rag-demo](https://github.com/mikehot/springboot-ai-rag-demo) |
+
 ## Delivery Principles
 
 - **Evidence first**: screenshots, build logs, lint/build checks, runtime notes, smoke scripts, and deployment status matter more than slogans.
