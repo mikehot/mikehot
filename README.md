@@ -37,9 +37,9 @@ I build **mobile business systems, Java backends, admin platforms, and practical
 
 ## Public Demo Repository
 
-| Repository | What It Demonstrates | Link |
-| --- | --- | --- |
-| Spring Boot AI RAG Demo | Sanitized RAG Q&A API with sample documents, simple retrieval, source citations, `found=false` boundary, tests, and CI | [mikehot/springboot-ai-rag-demo](https://github.com/mikehot/springboot-ai-rag-demo) |
+| Repository | What It Demonstrates | Status | Link |
+| --- | --- | --- | --- |
+| Spring Boot AI RAG Demo | Sanitized RAG Q&A API with sample documents, simple retrieval, source citations, `found=false` boundary, tests, and CI | [![CI](https://github.com/mikehot/springboot-ai-rag-demo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mikehot/springboot-ai-rag-demo/actions/workflows/ci.yml) | [mikehot/springboot-ai-rag-demo](https://github.com/mikehot/springboot-ai-rag-demo) |
 
 ## Delivery Principles
 
