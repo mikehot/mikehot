@@ -1,0 +1,48 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Jacky Chou profile banner</title>
+  <desc id="desc">Black and white technology style banner for Flutter Android Java and AI engineering portfolio.</desc>
+  <rect width="1280" height="420" fill="#050505"/>
+  <defs>
+    <linearGradient id="scan" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9FF5A" stop-opacity="0.24"/>
+      <stop offset="0.35" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#D9FF5A" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.85 0 0 0 0 1 0 0 0 0 0.35 0 0 0 0.75 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+  <path d="M0 316C180 252 290 288 426 210C590 116 770 100 936 126C1080 148 1180 210 1280 164V420H0V316Z" fill="url(#scan)"/>
+  <g opacity="0.9" filter="url(#softGlow)">
+    <rect x="70" y="72" width="148" height="40" rx="8" fill="#D9FF5A"/>
+    <text x="92" y="98" fill="#050505" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="1">2015-NOW</text>
+  </g>
+  <text x="70" y="176" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="900" letter-spacing="0">JACKY CHOU</text>
+  <text x="74" y="224" fill="#D6D6D6" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Flutter / Android / Java Backend / AI Engineering</text>
+  <text x="74" y="264" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500">Mobile business systems, RAG knowledge bases, MCP/Agent workflows, and delivery evidence.</text>
+  <g transform="translate(74 310)">
+    <rect width="128" height="38" rx="8" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="20" y="24" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">FLUTTER</text>
+    <rect x="144" width="128" height="38" rx="8" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="164" y="24" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">ANDROID</text>
+    <rect x="288" width="128" height="38" rx="8" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="318" y="24" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">JAVA</text>
+    <rect x="432" width="128" height="38" rx="8" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="462" y="24" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">RAG</text>
+    <rect x="576" width="128" height="38" rx="8" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="604" y="24" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">MCP</text>
+  </g>
+  <g transform="translate(910 76)">
+    <rect width="260" height="260" rx="28" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <path d="M54 94H206M54 132H168M54 170H190" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="10" stroke-linecap="round"/>
+    <path d="M78 58H182M78 206H182" stroke="#D9FF5A" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="214" cy="46" r="10" fill="#D9FF5A"/>
+    <circle cx="46" cy="214" r="10" fill="#D9FF5A"/>
+  </g>
+</svg>
