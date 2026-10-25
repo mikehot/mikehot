@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Jacky Chou (周亚杰)
+# Jacky Chou
 
 <p align="left">
   <strong>Principal Applied AI Engineer · Forward Deployed Engineer (FDE) · Full-Stack Native & Cloud Architect</strong><br>
