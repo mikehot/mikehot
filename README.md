@@ -1,74 +1,111 @@
 <p align="center">
   <a href="https://mikehot.cloud">
-    <img src="./assets/profile-banner.svg" alt="Jacky Chou - Flutter Android Java AI Engineering" width="100%" />
+    <img src="./assets/profile-banner.svg" alt="Jacky Chou - Principal Applied AI Engineer & FDE" width="100%" />
   </a>
 </p>
 
-# Jacky Chou
+# Jacky Chou (周亚杰)
 
-**Flutter / Android / Java / AI Engineering**<br>
-2015 年开始从事移动端与业务系统开发，长期交付真实业务 App、Android 原生能力、Spring Boot 后端、Vue 管理后台、RAG 知识库和 AI 工作流。
+**`Principal Applied AI Engineer · Forward Deployed Engineer (FDE) · Full-Stack Native & Cloud Architect`**  
+12 年软件系统工程经验（2014 年起至今，经历 Eclipse ADT ➔ Android Studio / Java ➔ Kotlin / Flutter 三端商业端 ➔ Spring Boot 权限中台 ➔ 生产级受控 Agent / FDE 现场交付）。
 
-I build mobile business systems, Java backends, admin platforms, and practical AI workflows with verifiable delivery evidence.
+I engineer mission-critical systems, high-assurance multi-agent architectures, mobile native runtimes, and zero-leak enterprise AI platforms with mathematically verifiable evidence.
 
 <p>
+  <a href="https://github.com/mikehot/fde-tools"><img alt="FDE CLI" src="https://img.shields.io/badge/Open%20Source-fde--tools-050505?style=for-the-badge&labelColor=050505&color=ffffff&logo=gnu-bash"></a>
   <a href="https://mikehot.cloud"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-mikehot.cloud-050505?style=for-the-badge&labelColor=050505&color=ffffff"></a>
-  <a href="https://mikehot.cloud/resume/"><img alt="Resume" src="https://img.shields.io/badge/Resume-Online-050505?style=for-the-badge&labelColor=050505&color=d7d7d7"></a>
-  <a href="https://github.com/mikehot/springboot-ai-rag-demo"><img alt="Public Demo" src="https://img.shields.io/badge/Public%20Demo-RAG%20API-050505?style=for-the-badge&labelColor=050505&color=ffffff"></a>
+  <a href="https://mikehot.cloud/resume/"><img alt="Resume" src="https://img.shields.io/badge/Resume-Online%20(ZH%20%7C%20EN)-050505?style=for-the-badge&labelColor=050505&color=d7d7d7"></a>
+  <a href="https://github.com/mikehot/springboot-ai-rag-demo"><img alt="Public Demo" src="https://img.shields.io/badge/Enterprise%20RAG-Spring%20Boot%203-050505?style=for-the-badge&labelColor=050505&color=ffffff"></a>
   <a href="mailto:mikehot668@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-mikehot668%40gmail.com-050505?style=for-the-badge&labelColor=050505&color=d7d7d7"></a>
 </p>
 
-## Fast Review
+---
 
-| For | Start Here | What You Can Verify |
-| --- | --- | --- |
-| Interview | [Online resume](https://mikehot.cloud/resume/) | Work history, stack depth, case summaries, delivery scope |
-| Client | [Portfolio](https://mikehot.cloud) | App, backend, admin, AI workflow and project packaging |
-| Code review | [Public RAG demo](https://github.com/mikehot/springboot-ai-rag-demo) | Spring Boot API, tests, CI, retrieval boundary, source citation |
-| Private review | Email request | Private repositories, commit history, screenshots, build logs, deployment notes |
+## 🛡️ Four-Dimensional Engineering Moat (四维技术护城河)
 
-## Core Stack
+```
+                       ┌──────────────────────────────────────────────┐
+                       │   High-Assurance Industrial AI & Systems     │
+                       └──────────────────────┬───────────────────────┘
+                                              │
+         ┌────────────────────┬───────────────┴───────────────┬────────────────────┐
+         ▼                    ▼                               ▼                    ▼
+┌──────────────────┐ ┌──────────────────┐           ┌──────────────────┐ ┌──────────────────┐
+│ Systems & Mobile │ │ Enterprise RAG   │           │ Controlled Agent │ │ Field Multimodal │
+│ Native Runtimes  │ │ & RBAC Security  │           │ State Machine    │ │ Commercial Loop  │
+├──────────────────┤ ├──────────────────┤           ├──────────────────┤ ├──────────────────┤
+│ • 16KB Page Align│ │ • Java 21 / SB 3 │           │ • LangGraph DAG  │ │ • Dual-Vision QA │
+│ • SafeMethodChan │ │ • Row-Level RBAC │           │ • FastMCP Tools  │ │ • Math Equation  │
+│ • Dio 401 Mutex  │ │ • AST Citations  │           │ • 5-Step Breaker │ │ • pHash Idempot. │
+└──────────────────┘ └──────────────────┘           └──────────────────┘ └──────────────────┘
+```
 
-| Area | Production Focus | Technologies |
-| --- | --- | --- |
-| Mobile apps | Business flows, state management, permissions, media upload, camera, QR scan, location, push, sharing, release checks | Flutter, Dart, Android Java/Kotlin, MethodChannel, Gradle |
-| Java backend | API design, auth, RBAC, audit trails, async jobs, business state machines, smoke validation | Spring Boot, PostgreSQL, Redis, Docker, JWT/RBAC |
-| Admin systems | Operations dashboard, list/detail workflow, tickets, approvals, role boundaries, audit view | Vue 3, TypeScript, Element Plus |
-| AI engineering | RAG Q&A, citations, out-of-scope handling, local/cloud model provider boundary, human handoff, tool workflows | Embedding, pgvector, OpenAI-compatible APIs, MCP, Agent workflow |
-| Delivery | CI, static build, deployment, domain, HTTPS, verification notes, rollback-friendly release habits | GitHub Actions, Nginx, Alibaba Cloud, Linux |
+### 1. 端侧与系统级穿透力 (Systems & Mobile Native Penetration)
+* **Google Play 2026 16KB 内存页对齐**：深入 NDK 段表排查，开发纯 Python 64-bit ELF 自动解析器，精准定位非对齐 `.so` 依赖与汇编对齐修复。
+* **Flutter-Native 安全通信基座**：设计 `SafeMethodChannel` 原子状态机调度，杜绝跨线程未初始化调用、死锁与内存悬垂指针。
+* **网络与并发单飞互斥锁**：Dio 拦截器并发单飞（Single Flight）互斥锁，多请求并发 401 时仅单次换票、无缝重放，零重复请求风暴。
 
-## Selected Work
+### 2. 严密权限中台与防幻觉基座 (Strict RBAC & Anti-Hallucination Base)
+* **Java 21 + Spring Boot 3 + pgvector**：物理隔离与动态 Tenant 过滤，保证多租户 RAG 检索 **0% ACL 越权泄露**。
+* **独创后端 AST 引用真实性校验器**：强制回答携带物理页码与文本 Chunk Hash，若无真实依据强行断言 `found=false` 并触发人工降级。
 
-| Case | Positioning | Link |
-| --- | --- | --- |
-| Pocket Home Flutter | Multi-platform Flutter business App with Android native capability integration and real-device proof | [Case study](https://mikehot.cloud/projects/pocket-home-flutter/) |
-| AI Customer Service Ticket System | AI answer first, low-confidence human handoff, ticket workflow closure | [Case study](https://mikehot.cloud/projects/ai-customer-service/) |
-| AI Weekly Business Report | CSV/Excel upload, async calculation, reviewable AI-generated business report | [Case study](https://mikehot.cloud/projects/ai-weekly-report/) |
-| RAG Knowledge Base | Upload, chunking, embedding, Top-K retrieval, source citation, out-of-scope boundary | [Case study](https://mikehot.cloud/projects/rag-knowledge-base/) |
-| Field Service Ops Platform | Spring Boot + Vue admin base for RBAC, customer, ticket, approval and audit workflows | [Case study](https://mikehot.cloud/projects/field-service-ops/) |
+### 3. 受控工业级 Agent 状态机 (Controlled Industrial Agent State Machine)
+* **LangGraph + FastMCP 协议标准**：构建有向无环图（DAG），设定 5 步硬熔断（Bounded Loop）阻断死循环。
+* **复杂意图拆解与动态撤权**：支持多目标递归分解（Decomposition 解决率 100%），高危只读/写入分离，不可逆操作会话级动态撤权与 Human-in-the-Loop 拦截。
 
-## Public Demo
+### 4. 现场服务多模态商业闭环 (Field Multimodal Commercial Loop)
+* **现场单据自动化录入与智能核验**：双视觉模型互验交叉复核、金额等式硬断言（Subtotal + Tax == Total）。
+* **感知哈希 (pHash) 幂等防重**：计算图片感知哈希与 MD5 组合键，网络弱网重试时 0 错误率、0 重复单，实现 3.3 个月商业 ROI 回收。
 
-| Repository | What It Demonstrates | CI |
-| --- | --- | --- |
-| [mikehot/springboot-ai-rag-demo](https://github.com/mikehot/springboot-ai-rag-demo) | Sanitized Spring Boot RAG Q&A API with sample documents, retrieval, citations, `found=false` boundary, tests and CI | [![CI](https://github.com/mikehot/springboot-ai-rag-demo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mikehot/springboot-ai-rag-demo/actions/workflows/ci.yml) |
+---
 
-## Delivery Principles
+## 🌟 Featured Open Source & Production Toolkits
 
-- **Evidence first**: screenshots, build logs, lint/build checks, CI status, smoke scripts and deployment notes are part of the deliverable.
-- **AI with boundaries**: AI output should be source-backed, reviewable, and able to hand off when confidence or context is insufficient.
-- **System delivery**: App, backend, admin, data model, model provider, deployment and validation are treated as one product path.
-- **Scoped MVP**: for client work, the first release is controlled by scope, milestones and acceptance criteria before adding advanced features.
+| Repository | Focus & Capability | Tech Stack | Status |
+| :--- | :--- | :--- | :---: |
+| [**`mikehot/fde-tools`**](https://github.com/mikehot/fde-tools) | **Field Deployed Engineer CLI Toolkit**: 16KB ELF alignment inspector, perceptual dHash idempotency generator, FastMCP server scaffolder, Golden Dataset Evals runner, and defensive security guard. | Python 3.9+ · Zero Heavy Deps · CLI | [![CI](https://github.com/mikehot/fde-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/mikehot/fde-tools/actions) |
+| [**`mikehot/springboot-ai-rag-demo`**](https://github.com/mikehot/springboot-ai-rag-demo) | **Enterprise RAG Knowledge Base Mid-End**: Sanitized Spring Boot 3 + pgvector API demonstrating strict RBAC security, AST citation validation, `found=false` boundaries, unit tests & CI. | Java 21 · Spring Boot 3 · pgvector | [![CI](https://github.com/mikehot/springboot-ai-rag-demo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mikehot/springboot-ai-rag-demo/actions) |
+| [**`mikehot/doc-intake-agent`**](https://github.com/mikehot/doc-intake-agent) | **Field Service Document Intake Engine**: Offline-resilient document processing with dual-vision LLM cross-validation, financial math assertions, and Redis-backed idempotency lock. | Python · LangGraph · FastMCP | `Active` |
+| [**`mikehot/pocket_home_flutter`**](https://mikehot.cloud/projects/pocket-home-flutter/) | **Multi-Platform Enterprise Business App**: Cross-platform Flutter architecture with Android/iOS native bridge hardening, atomic channel safety, and offline cache synchronization. | Flutter · Dart · Android Native | `Production` |
 
-## Current Focus
+---
 
-- Flutter business App delivery and Android native capability integration.
-- Spring Boot + Vue admin systems for small and medium business workflows.
-- RAG knowledge bases, AI customer service, report generation, MCP/Agent workflows and local LLM validation.
-- Portfolio-grade proof materials for hiring, freelance and client review.
+## ⚡ Fast Review Navigation
 
-## Contact
+| For | Recommended Entry | What You Can Verify |
+| :--- | :--- | :--- |
+| **Hiring & Executive** | [Online Resume](https://mikehot.cloud/resume/) | 12-year system evolution, verified milestones, enterprise case studies, and delivery scope |
+| **Enterprise Client** | [Commercial Portfolio](https://mikehot.cloud) | 3-Day PoC packages, enterprise private deployment, 16KB troubleshooting, and ROI pricing |
+| **Engineering Leader** | [FDE CLI Toolkit](https://github.com/mikehot/fde-tools) | Pure Python ELF page parser, pHash idempotency, FastMCP scaffolding, and test harness |
+| **Security & Architecture** | [Spring Boot RAG Demo](https://github.com/mikehot/springboot-ai-rag-demo) | Physical row-level RBAC filtering, AST citation verification, and regression tests |
+| **Confidential Verification** | [Email Request](mailto:mikehot668@gmail.com) | Commit logs, production CI runs, system architecture blueprints, and benchmark logs |
 
-- Website: [mikehot.cloud](https://mikehot.cloud)
-- Resume: [mikehot.cloud/resume](https://mikehot.cloud/resume/)
-- Email: [mikehot668@gmail.com](mailto:mikehot668@gmail.com)
+---
+
+## 🛠️ Technology Spectrum
+
+| Layer | Core Competencies | Tools & Frameworks |
+| :--- | :--- | :--- |
+| **Multi-Agent & FDE** | LangGraph, FastMCP, Golden Dataset Evals, Human-in-the-Loop, Bounded Loops | Python, LangGraph, FastMCP, Pydantic, Pytest |
+| **Enterprise Backend** | Java 21, Spring Boot 3, Row-Level RBAC, Tenant Isolation, Audit Trails | Spring Boot, PostgreSQL, pgvector, Redis, Docker |
+| **Mobile & Systems** | 16KB Page Alignment, SafeMethodChannel, Dio Single-Flight, NDK Segments | Flutter, Dart, Android Java/Kotlin, C/C++ NDK, Gradle |
+| **Front-End & Admin** | Enterprise Operations Dashboards, Real-time Ticket Workbenches, Role Matrix | Vue 3, TypeScript, Element Plus, TailwindCSS |
+| **Delivery & SRE** | Zero-Downtime Releases, Automated CI/CD, Containerization, Reverse Proxy | GitHub Actions, Linux, Nginx, Docker, Shell |
+
+---
+
+## 📜 Core Delivery Principles
+
+1. **Evidence First**: Architecture is not subjective; screenshots, build logs, lint checks, CI status, ELF headers, and unit benchmarks are integral parts of the deliverable.
+2. **AI with Ironclad Boundaries**: AI models must never bypass business ACLs or invent citations. If proof is absent, emit `found=false` and trigger human handoff.
+3. **Full-Stack Convergence**: Mobile UX, native runtime, backend state machines, and AI orchestration are treated as a unified, resilient product pathway.
+4. **Instant Value Realization**: Every engagement begins with clear acceptance criteria and measurable ROI.
+
+---
+
+## 📬 Contact & Engagements
+
+* **Personal Site**: [mikehot.cloud](https://mikehot.cloud)
+* **Online Resume**: [mikehot.cloud/resume](https://mikehot.cloud/resume/)
+* **Direct Email**: [mikehot668@gmail.com](mailto:mikehot668@gmail.com)
+* **Location**: Shanghai, China / Remote Global Available
