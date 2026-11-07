@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://mikehot.cloud">
+  <a href="https://jacky-portfolio.pages.dev">
     <img src="./assets/profile-banner.svg" alt="Jacky Chou - Principal Applied AI Engineer & FDE" width="100%" />
   </a>
 </p>
@@ -17,9 +17,9 @@
 
 <p align="left">
   <a href="https://github.com/mikehot/fde-tools"><img alt="FDE CLI" src="https://img.shields.io/badge/Open%20Source-fde--tools-050505?style=for-the-badge&labelColor=050505&color=ffffff&logo=gnu-bash"></a>
-  <a href="https://mikehot.cloud"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-mikehot.cloud-050505?style=for-the-badge&labelColor=050505&color=ffffff"></a>
-  <a href="https://mikehot.cloud/resume/"><img alt="Resume" src="https://img.shields.io/badge/Resume-Online%20(ZH%20%7C%20EN)-050505?style=for-the-badge&labelColor=050505&color=d7d7d7"></a>
-  <a href="https://github.com/mikehot/springboot-ai-rag-demo"><img alt="Public Demo" src="https://img.shields.io/badge/Enterprise%20RAG-Spring%20Boot%203-050505?style=for-the-badge&labelColor=050505&color=ffffff"></a>
+  <a href="https://jacky-portfolio.pages.dev"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-jacky--portfolio.pages.dev-050505?style=for-the-badge&labelColor=050505&color=ffffff"></a>
+  <a href="https://jacky-portfolio.pages.dev/resume/"><img alt="Resume" src="https://img.shields.io/badge/Resume-Online%20(ZH%20%7C%20EN)-050505?style=for-the-badge&labelColor=050505&color=d7d7d7"></a>
+  <a href="https://github.com/mikehot/rag-knowledge-base"><img alt="Public Demo" src="https://img.shields.io/badge/Enterprise%20RAG-Java%2021%20%2B%20Flutter-050505?style=for-the-badge&labelColor=050505&color=ffffff"></a>
   <a href="mailto:mikehot668@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-mikehot668%40gmail.com-050505?style=for-the-badge&labelColor=050505&color=d7d7d7"></a>
 </p>
 
@@ -90,9 +90,10 @@
 | Repository | Focus & Core Moat | Tech Stack | Production Status |
 | :--- | :--- | :--- | :---: |
 | [**`mikehot/fde-tools`**](https://github.com/mikehot/fde-tools) | **Field Deployed Engineer CLI Toolkit**: 16KB ELF alignment inspector, perceptual dHash idempotency generator, FastMCP server scaffolder, and Golden Dataset Evals runner. | Python 3.9+ · Zero Heavy Deps · CLI | [![CI](https://github.com/mikehot/fde-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/mikehot/fde-tools/actions) |
-| [**`mikehot/springboot-ai-rag-demo`**](https://github.com/mikehot/springboot-ai-rag-demo) | **Enterprise RAG Knowledge Base Mid-End**: Sanitized Spring Boot 3 + pgvector API demonstrating strict RBAC security, AST citation validation, `found=false` boundaries, unit tests & CI. | Java 21 · Spring Boot 3 · pgvector | [![CI](https://github.com/mikehot/springboot-ai-rag-demo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mikehot/springboot-ai-rag-demo/actions) |
-| [**`mikehot/doc-intake-agent`**](https://github.com/mikehot/doc-intake-agent) | **Field Service Document Intake Engine**: Offline-resilient document processing with dual-vision LLM cross-validation, financial math assertions, and Redis-backed idempotency lock. | Python · LangGraph · FastMCP | `Active` |
-| [**`mikehot/rag-knowledge-base`**](https://github.com/mikehot/rag-knowledge-base) | **Enterprise RAG Knowledge Base Architecture**: Multi-tenant knowledge base architecture with strict chunk boundaries, evaluation test gate, and out-of-scope human handoff. | Spring Boot · Flutter · pgvector | `Public Demo` |
+| [**`mikehot/rag-knowledge-base`**](https://github.com/mikehot/rag-knowledge-base) | **Enterprise RAG Knowledge Base**: Multi-tenant SQL-level ACL isolation, backend-verified citations, `found=false` fail-closed handoff, 182 backend tests & repeated evaluation harness. | Java 21 · Spring Boot · Flutter · pgvector | [![CI](https://github.com/mikehot/rag-knowledge-base/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mikehot/rag-knowledge-base/actions) |
+| [**`mikehot/rag-agent-python`**](https://github.com/mikehot/rag-agent-python) | **Controlled RAG Agent Service**: LangGraph + bounded-loop orchestration, multi-step query decomposition (12/12), session memory with enforced revocation check (0/3 leakage). | Python 3.12 · FastAPI · LangGraph | [![CI](https://github.com/mikehot/rag-agent-python/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mikehot/rag-agent-python/actions) |
+| [**`mikehot/rag-mcp-server`**](https://github.com/mikehot/rag-mcp-server) | **Official MCP SDK Knowledge Server**: Stdio MCP server exposing ACL-scoped read-only knowledge tools with per-caller bearer passthrough and 22 contract tests. | Python 3.12 · MCP SDK v2 · httpx | [![CI](https://github.com/mikehot/rag-mcp-server/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mikehot/rag-mcp-server/actions) |
+| [**Field Document Intake Agent (Case Study)**](https://jacky-portfolio.pages.dev/projects/doc-intake-agent/) | **Field Service Multimodal Write-Back Agent**: Dual-VLM cross-validation, deterministic table rules, idempotent work-order write-back (0 wrong auto-writes on held-out & real photos, 217 tests). | Python · Dual-VLM · Spring Boot | `Case Study` |
 
 ---
 
@@ -100,11 +101,11 @@
 
 | Target Audience | Recommended Entry | What You Can Verify |
 | :--- | :--- | :--- |
-| **Hiring & Executive** | [Online Resume (在线中英双语简历)](https://mikehot.cloud/resume/) | 12 年系统演进、实证里程碑、企业级案例深度与技术交付边界 |
-| **Enterprise Client** | [Commercial Portfolio (商业交付全景)](https://mikehot.cloud) | 3 天 PoC 交付包、企业私有化部署实施、16KB 排雷方案与阶梯报价 |
+| **Hiring & Executive** | [Online Resume (在线中英双语简历)](https://jacky-portfolio.pages.dev/resume/) | 12 年系统演进、双品牌三端（Android/iOS/OHOS）上架实证与全栈交付边界 |
+| **Enterprise Client** | [Commercial Portfolio (商业交付全景)](https://jacky-portfolio.pages.dev) | 三端商业 App、企业私有化 RAG/Agent 交付包、验收手册与阶梯合作方案 |
 | **Engineering Leader** | [FDE CLI Toolkit 源码](https://github.com/mikehot/fde-tools) | 纯 Python ELF 页解析器、pHash 幂等锁、FastMCP 脚手架与 100% CI 绿标 |
-| **Security & Architecture** | [Spring Boot RAG 架构演示](https://github.com/mikehot/springboot-ai-rag-demo) | 物理行级 RBAC 过滤、AST 引用校验器、`found=false` 边界与回归测试 |
-| **Confidential Verification** | [Email Request (保密审核请求)](mailto:mikehot668@gmail.com) | 私有商业代码库提交记录、生产构建日志、系统架构蓝图与压力测试报表 |
+| **Security & Architecture** | [Enterprise RAG + Agent + MCP 源码](https://github.com/mikehot/rag-knowledge-base) | SQL 内 ACL 权限过滤、引用校验器、撤权 0 泄露评测报告与 182 项后端测试 |
+| **Confidential Verification** | [Email Request (保密审核请求)](mailto:mikehot668@gmail.com) | 私有商业代码库（双品牌三端 App / 单据幂等写回 Agent）提交记录与构建证据 |
 
 ---
 
@@ -120,8 +121,8 @@
 ## 📬 Contact & Engagements
 
 <p align="left">
-  • <strong>Personal Website</strong>: <a href="https://mikehot.cloud">mikehot.cloud</a><br>
-  • <strong>Master Resume</strong>: <a href="https://mikehot.cloud/resume/">mikehot.cloud/resume (ZH / EN)</a><br>
+  • <strong>Personal Website</strong>: <a href="https://jacky-portfolio.pages.dev">jacky-portfolio.pages.dev</a><br>
+  • <strong>Master Resume</strong>: <a href="https://jacky-portfolio.pages.dev/resume/">jacky-portfolio.pages.dev/resume (ZH / EN)</a><br>
   • <strong>Direct Email</strong>: <a href="mailto:mikehot668@gmail.com">mikehot668@gmail.com</a><br>
-  • <strong>Location</strong>: Shanghai, China / Remote Global Available
+  • <strong>Location</strong>: Hubei, China / Remote Global Available
 </p>
