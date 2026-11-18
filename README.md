@@ -16,6 +16,7 @@
 </p>
 
 <p align="left">
+  <a href="https://agent-hitl-workbench.pages.dev"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-agent--hitl--workbench-2563EB?style=for-the-badge&labelColor=050505"></a>
   <a href="https://github.com/mikehot/fde-tools"><img alt="FDE CLI" src="https://img.shields.io/badge/Open%20Source-fde--tools-050505?style=for-the-badge&labelColor=050505&color=ffffff&logo=gnu-bash"></a>
   <a href="https://mikehot.cloud"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-mikehot.cloud-050505?style=for-the-badge&labelColor=050505&color=ffffff"></a>
   <a href="https://mikehot.cloud/resume/"><img alt="Resume" src="https://img.shields.io/badge/Resume-Online%20(ZH%20%7C%20EN)-050505?style=for-the-badge&labelColor=050505&color=d7d7d7"></a>
@@ -89,6 +90,7 @@
 
 | Repository | Focus & Core Moat | Tech Stack | Production Status |
 | :--- | :--- | :--- | :---: |
+| [**`mikehot/agent-hitl-workbench`**](https://github.com/mikehot/agent-hitl-workbench) | **Stateful HITL Approval & Trace-to-Eval Workbench** ([Live Demo](https://agent-hitl-workbench.pages.dev)): `LangGraph 1.2` `interrupt/Command(resume)` surviving OS-process restarts, 6 deterministic guards, idempotent ledger, and 3-pane Flutter console exporting `regression_cases.jsonl`. | Python 3.12 · LangGraph · Flutter | [![CI](https://github.com/mikehot/agent-hitl-workbench/actions/workflows/ci.yml/badge.svg)](https://github.com/mikehot/agent-hitl-workbench/actions) |
 | [**`mikehot/fde-tools`**](https://github.com/mikehot/fde-tools) | **Field Deployed Engineer CLI Toolkit**: 16KB ELF alignment inspector, perceptual dHash idempotency generator, FastMCP server scaffolder, and Golden Dataset Evals runner. | Python 3.9+ · Zero Heavy Deps · CLI | [![CI](https://github.com/mikehot/fde-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/mikehot/fde-tools/actions) |
 | [**`mikehot/rag-knowledge-base`**](https://github.com/mikehot/rag-knowledge-base) | **Enterprise RAG Knowledge Base**: Multi-tenant SQL-level ACL isolation, backend-verified citations, `found=false` fail-closed handoff, 182 backend tests & repeated evaluation harness. | Java 21 · Spring Boot · Flutter · pgvector | [![CI](https://github.com/mikehot/rag-knowledge-base/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mikehot/rag-knowledge-base/actions) |
 | [**`mikehot/rag-agent-python`**](https://github.com/mikehot/rag-agent-python) | **Controlled RAG Agent Service**: LangGraph + bounded-loop orchestration, multi-step query decomposition (12/12), session memory with enforced revocation check (0/3 leakage). | Python 3.12 · FastAPI · LangGraph | [![CI](https://github.com/mikehot/rag-agent-python/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mikehot/rag-agent-python/actions) |
@@ -102,6 +104,7 @@
 | Target Audience | Recommended Entry | What You Can Verify |
 | :--- | :--- | :--- |
 | **Hiring & Executive** | [Online Resume (在线中英双语简历)](https://mikehot.cloud/resume/) | 12 年系统演进、双品牌三端（Android/iOS/OHOS）上架实证与全栈交付边界 |
+| **Interactive Live Demo** | [Agent HITL Workbench (免登录沙盒)](https://agent-hitl-workbench.pages.dev) | 浏览器零 Token 实测 LangGraph 断点挂起、人工改字唤醒、幂等防重与 JSONL 导出 |
 | **Enterprise Client** | [Commercial Portfolio (商业交付全景)](https://mikehot.cloud) | 三端商业 App、企业私有化 RAG/Agent 交付包、验收手册与阶梯合作方案 |
 | **Engineering Leader** | [FDE CLI Toolkit 源码](https://github.com/mikehot/fde-tools) | 纯 Python ELF 页解析器、pHash 幂等锁、FastMCP 脚手架与 100% CI 绿标 |
 | **Security & Architecture** | [Enterprise RAG + Agent + MCP 源码](https://github.com/mikehot/rag-knowledge-base) | SQL 内 ACL 权限过滤、引用校验器、撤权 0 泄露评测报告与 182 项后端测试 |
